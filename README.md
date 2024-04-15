@@ -30,24 +30,26 @@ This is where we will create a new user. Right-click on mydomain.com and go to '
 <img src="https://i.imgur.com/ldheoeV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-A new window will open, displaying the full name for that new user. Originally, the textboxes will be blank for you to fill in. Type in your first, middle, and last name separately, and the textbox for Full Name will automatically fill in. In this case, I used my own name. Next, type in a user logon name (I recommend using your first and last name separated by a period). : <br/>
+A new window will open, displaying the full name for that new user. Originally, the textboxes will be blank for you to fill in. Type in your first, middle, and last name separately, and the textbox for Full Name will automatically fill in. In this case, I used my own name. Next, type in a user logon name (I recommend using your first and last name separated by a period). Click 'Next'. : <br/>
 <img src="https://i.imgur.com/iwDzSAq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-This will now take you to 'Features'. You do not need to add any additional features in this section so click on 'Next'. :  <br/>
-<img src="https://i.imgur.com/f8C0Xv5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+You will now be prompted to provide a password for the user. Create a password that is easy for you to remember. Below, you will see a list of checkboxes regarding what to do with the password. You will see that the first checkbox, which requires the user to change the password upon next login, is checked by default. You may uncheck this box if you do not want this option. However, for security purposes, it is recommended to require users to change their password upon next login. Click 'Next' and you will see a summary of the new user's information. Click 'Finish'. :  <br/>
+<img src="https://i.imgur.com/QZU1K93.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-The next two sections ('AD DS' and 'DNS Server') do not require any action so click on next for both sections. This will then take you to the 'Confirmation' section, which displays the roles you just added and want to install. First, check the checkbox next to 'Restart the destination server automatically if required'. Then, click on 'Install' and wait for the installation process to complete. This will take some time and the system will automatically restart. :  <br/>
-<img src="https://i.imgur.com/D80zygd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Going back to the 'Active Directory Users and Computers' window, you can confirm that a new user, Ross Park', has been created. Right-click on the new user and click on 'Properties'. You will see all the information (name, address, member of, etc.) of that new user. :  <br/>
+<img src="https://i.imgur.com/7fPOUJr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wxqurzI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Once the installation is complete, you will see a notification on the flag icon (located upper-right corner). Click on that icon and a dropdown menu will appear. Select 'Promote this server to a domain controller', which will allow you to configure the server. :  <br/>
-<img src="https://i.imgur.com/zkhZGUo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Initially, the new user 'Ross Park' is currently a member of the group 'Domain Users'. To add the user to another group, click 'Add...' and a window should open. In this scenario, I want to add that user to the group 'Domain Admins'. I will type in 'Domain Admins' and select 'Check Names'. When the name becomes underlined, that group exists. Click 'OK'. :  <br/>
+<img src="https://i.imgur.com/9ufy98H.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/wZ64SIJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-After clicking on 'Promote this server to a domain controller', a box should open. This will take you to 'Deployment Configuration'. In this section, select 'Add a new forest'. Next, type the root domain name in the textbox for the new forest. In my case, I used 'mydomain.com'. :  <br/>
-<img src="https://i.imgur.com/XxnC5g3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+When you go back to the Porperties window for the new user, you will see that 'Ross Park' now belongs to both groups. :  <br/>
+<img src="https://i.imgur.com/5TEL1nM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br />
 <br />
 In the 'Domain Controller Options' section, type in a password for the Directory Services Restore Mode. Use a password that is easy to remember. This is necessary if you want to restore the AD from backup. Click 'Next'. :  <br/>
