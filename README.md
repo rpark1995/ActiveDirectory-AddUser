@@ -1,9 +1,9 @@
 # ActiveDirectory-AddUser
 
-<h1>Active Directory Home Lab - Add User</h1>
+<h1>Active Directory Home Lab - Add Users and Groups</h1>
 
 <h2>Description</h2>
-In this lab, I am going to demonstrate how to add users in Active Directory. I will also demonstrate how to add users to a particular group.
+In this lab, I am going to demonstrate how to add users and groups in Active Directory. I will also demonstrate how to add users to a particular group.
 <br />
 
 
@@ -61,16 +61,16 @@ Now, I am logged in as the new user (ross.park). The Server Manager application 
 <img src="https://i.imgur.com/PbiiQt9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br />
 <br />
-In 'Paths', this will display the default database, log files, and SYSVOL folders. Again, othing needs to be done, so click on 'Next'. :  <br/>
-<img src="https://i.imgur.com/MkxB76r.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+This time, I will create a new group. First, click on 'Tools', and select 'Active Directory Users and Computers'. Once the window opens, right-click on mydomain.com, navigate to New and select 'Group' on the right. :  <br/>
+<img src="https://i.imgur.com/moEftJf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br />
 <br />
-The wizard will perform some prerequisite checks to ensure AD can be installed on the server. In this case, the server passed all the checks. There were a few warnings, but that is normal and ok as long as the test passed. Click 'Install' to configure AD on the server. The machine will restart automatically. :
-<img src="https://i.imgur.com/0cuunFV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+A new window will open and you will be prompted to create a group name. In this scenario, I named the group 'HR'. Below the group name is group scope. By default, the button will be selected as 'Global', but 'Domain Local' should be selected so that other servers/organizations may not access this group. Click OK. :
+<img src="https://i.imgur.com/nWiIv6p.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br />
 <br />
-Once restarted, you will need to log in with the domain administrator account. Notice how the username displays 'MYDOMAIN\Administrator'. You will log in using the password you created while creating a virtual machine. :  <br/>
-<img src="https://i.imgur.com/PTf1YhN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Now on the domain, a new folder (new group) has been created :  <br/>
+<img src="https://i.imgur.com/ada2AWO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
    <br/>
 </p>
 
