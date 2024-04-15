@@ -52,12 +52,13 @@ When you go back to the Porperties window for the new user, you will see that 'R
 <img src="https://i.imgur.com/5TEL1nM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br />
 <br />
-In the 'Domain Controller Options' section, type in a password for the Directory Services Restore Mode. Use a password that is easy to remember. This is necessary if you want to restore the AD from backup. Click 'Next'. :  <br/>
-<img src="https://i.imgur.com/M4OJvvH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Before siging in as the new user, I will first log out of the Administrator account. This will then take me to the log on screen. On the log on screen, I will first click on 'Other user' because I am signing in as the new user. Next, I will type in my new user name (ross.park) and my password. :  <br/>
+<img src="https://i.imgur.com/DyVnjrJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/ZiseTsY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br />
 <br />
-In 'Additional Options', the NET BIOS name will be verified. Nothing needs to be done, so click on 'Next' to accept the name. :  <br/>
-<img src="https://i.imgur.com/IY4AdO9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Now, I am logged in as the new user (ross.park). The Server Manager application will automatically open uopn login. :  <br/>
+<img src="https://i.imgur.com/PbiiQt9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   <br />
 <br />
 In 'Paths', this will display the default database, log files, and SYSVOL folders. Again, othing needs to be done, so click on 'Next'. :  <br/>
