@@ -64,7 +64,7 @@ This time, I will create a new group. First, click on 'Tools', and select 'Activ
   <br />
 <br />
 A new window will open and you will be prompted to create a group name. In this scenario, I named the group 'HR'. Below the group name is group scope. By default, the button will be selected as 'Global', but 'Domain Local' should be selected so that other servers/organizations may not access this group. Click OK. :
-<img src="https://i.imgur.com/nWiIv6p.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/krrgEqQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br />
 <br />
 Now on the domain, a new folder (new group) has been created :  <br/>
