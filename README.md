@@ -67,7 +67,7 @@ A new window will open and you will be prompted to create a group name. In this 
 <img src="https://i.imgur.com/krrgEqQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br />
 <br />
-Now on the domain, a new folder (new group) has been created :  <br/>
+Now on the domain, a new folder (new group) has been created. :  <br/>
 <img src="https://i.imgur.com/ada2AWO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
    <br/>
 </p>
