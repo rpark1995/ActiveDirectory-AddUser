@@ -1,5 +1,3 @@
-# ActiveDirectory-AddUser
-
 <h1>Active Directory Home Lab - Add Users and Groups</h1>
 
 <h2>Description</h2>
